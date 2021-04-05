@@ -1,68 +1,29 @@
 {
-  "name": "@pager/jackrabbit",
-  "version": "5.3.0",
-  "description": "Easy RabbitMQ for node",
-  "keywords": [
-    "amqp",
-    "rabbitmq",
-    "rabbit",
-    "job",
-    "jobs",
-    "queue",
-    "task",
-    "resqueue",
-    "rpc",
-    "drpc",
-    "distributed-rpc"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/pagerinc/jackrabbit.git"
+  "name": "@filaind/jackrabbit-reconnection",
+  "version": "1.0.0",
+  "description": "This is an actively maintained fork of [hunterloftis/jackrabbit], a library for RabbitMQ in Node.js without hating life.",
+  "main": ".eslintrc.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   },
-  "homepage": "https://github.com/pagerinc/jackrabbit",
-  "bugs": "https://github.com/pagerinc/jackrabbit/issues",
-  "main": "lib/jackrabbit.js",
-  "renovate": {
-    "extends": [
-      "github>pagerinc/renovate-config"
-    ],
-    "lockFileMaintenance": {
-      "enabled": false
-    }
-  },
-  "engines": {
-    "node": ">= v10.18.0"
-  },
-  "license": "MIT",
-  "author": "Pager Developers <engineering@pager.com>",
-  "contributors": [
-    "Pager Developers <engineering@pager.com>",
-    "Hunter Loftis <hunter@hunterloftis.com>"
-  ],
   "dependencies": {
     "amqplib": "0.7.x",
     "lodash.assignin": "4.x",
     "uuid": "8.x"
   },
-  "devDependencies": {
-    "@pager/semantic-release-config": "1.x",
-    "chai": "4.x",
-    "eslint": "7.x",
-    "eslint-config-hapi": "12.x",
-    "eslint-plugin-hapi": "4.x",
-    "mocha": "8.x",
-    "semantic-release": "17.x",
-    "sinon": "10.x"
-  },
-  "mocha": {
-    "bail": true,
-    "recursive": true
-  },
   "scripts": {
-    "test": "mocha",
-    "lint": "eslint lib/** test/**"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "release": {
-    "extends": "@pager/semantic-release-config"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Filaind/jackrabbit.git"
+  },
+  "author": "Filaind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Filaind/jackrabbit/issues"
+  },
+  "homepage": "https://github.com/Filaind/jackrabbit#readme"
 }
